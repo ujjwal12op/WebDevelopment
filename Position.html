@@ -1,0 +1,62 @@
+<!-- Lets talk about the position property in CSS.
+Types:
+1)Static
+2)Relative
+3)absolute
+4)Fixed
+5)Sticky
+
+position: static;
+It is the default position of HTML elements. -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Position relatives</title>
+<style>
+    .container{
+        border: 2px solid red;
+        height: 3444px;
+        display: inline-block;
+     
+    }
+    .box{
+        border: 2px solid red;
+        width: 40px;
+        height: 40px;
+        margin: 4px;
+        display: inline-block;
+        background-color: aqua;
+    }
+
+    #box2{
+        /* position: relative;
+        top: 30px;
+        left: 30px; */
+
+        /* position: absolute;
+        top: 58px;
+        right: 494px */
+
+        /* position: fixed;
+        right: 2px;
+        bottom: 4px; */
+
+        /* position: sticky;
+        top: 3px; */
+    }
+</style>
+</head>
+<body>
+    <h3>Lets learn about positioning in CSS</h3>
+<div class="container">
+    <div class="box" id="box1">1</div>
+    <div class="box" id="box2">2</div>
+    <div class="box" id="box3">3</div>
+    <div class="box" id="box4">4</div>
+</div>
+</body>
+</html>

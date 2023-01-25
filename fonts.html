@@ -1,0 +1,47 @@
+<!-- In CSS we have two types of fonts:
+web safe fonts
+web fonts
+
+Web saved fonts are the fonts that come pre-installed with most of the operating systems, therefore, using these fonts you will never encounter any error. But on the other hand, some fonts are not shipped with the OS; so to use them, we need to import them from the web.
+
+We can also use the technique of font stack. A font stack is a list of fonts that are listed in order of preference you would like them to appear in case some fonts are not loading. The example of this is shown below-
+
+This list will be iterated until the specified font is not available in the system.
+
+To see the whole list of web saved fonts, there is a very good website called CSS Font Stack. It provides the complete list of web saved fonts. Talking about web fonts, we can easily import them from Google. To import the code, there is no website better than Google Fonts. To use it, simply copy the style-sheet and add it to your code and update the font stack with the specific font you desire.
+
+we will learn:
+font family
+font size
+line height
+font weight -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>What are fonts ?</title>
+    <style>
+        span {
+            color: red;
+            font-style: oblique;
+        }
+
+        p {
+            font-family: 'Tangerine', serif;
+            font-size: 48px;
+            text-shadow: 4px 4px 4px #aaa;
+        }
+    </style>
+</head>
+
+<body>
+    <p>This is a test paragraph</p>
+    <h4>Here we are learning fonts in CSS</h4>
+    <span>this is a span message</span>
+</body>
+
+</html>

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learning Buttons</title>
+
+    <style>
+        .container{
+            border:2px solid rgb(255, 0, 0) ;
+            background-color: rgb(227, 233, 177);
+            padding: 34px;
+            margin: 34px auto;
+            width: 666px;
+        }
+
+        a{
+            text-decoration: none;
+            /* Anchor tag se underline hatane ke lie */
+            color: rgb(0, 0, 0);
+        }
+
+        a:hover{
+            color:blueviolet;
+            background-color: aqua;
+        }
+
+        a:visited{
+            background-color: yellow;
+        }
+        a:active{
+            background-color: blue;
+        }
+        .btn{
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-weight: bold;
+            background-color: rgb(235, 175, 187);
+            padding: 6px;
+            border: none;
+            cursor: pointer;
+            font-size: 13px;
+            border-radius: 4px;
+            
+        } 
+        .btn:hover{
+            color:darkgoldenrod;
+            background-color: blueviolet;
+            border: 2px solid black;
+        }    </style>
+</head>
+<body>
+    <div class="container">
+        <h3>Lets learn Buttons in CSS</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio, praesentium pariatur dolor ducimus, eum eos nisi alias iste voluptatem vitae adipisci natus explicabo provident ab voluptate tenetur fuga aut ullam.</p>
+        <a href="https://www.google.com" target="_blank">Read again</a>
+        <button class="btn">Contact me</button>
+    </div>
+</body>
+</html>

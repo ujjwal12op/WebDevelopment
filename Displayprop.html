@@ -1,0 +1,87 @@
+<!-- CSS display property:
+CSS element is treated as a block element or an inline elements.
+
+Examples of an inline element : <a></a>,<b></b>,<i></i>,<img src="" alt="">
+
+Examples of block element : <p></p>,<h1></h1>,<ul></ul>,<hr> -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Display Property</title>
+    <style>
+        /* header,div,h3,img,box*/
+        * {}
+
+        .Top {
+            border: 2px solid red;
+            margin: auto;
+            width: 1200px;
+        }
+
+        .container {
+            margin: auto;  
+            width: 1200px;
+        }
+
+        .head {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0px;
+        }
+
+        #h {
+            text-align: center;
+        }
+
+        img {
+            display: block;
+            margin: auto;
+            width: 84px;
+
+        }
+
+        .box {
+            border: 2px solid rgb(5, 5, 5);
+            background-color: rgb(244, 231, 212);
+            margin: 13px;
+            display: inline-block;
+            width: 30%;
+            box-sizing: border-box;
+        }
+
+        .para {
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="Top">
+        <img src="https://yt3.ggpht.com/PyRXWY6GRjG3wcCWAgMFLT_VTUWw1FCKndqFX8Xd_sQWgDlAuKLR97IDgageKDAWTX7SaN3t=s600-c-k-c0x00ffffff-no-rj-rp-mo"
+            alt="">
+        <h3 id="h">Welcome to ujjwals blog</h3>
+    </header>
+    <div class="container">
+        <div class="box">
+            <h3 class="head">Heading 1</h3>
+            <p class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor ex beatae magni suscipit
+                obcaecati in quasi assumenda pariatur! Qui, quaerat dolor?</p>
+        </div>
+        <div class="box">
+            <h3 class="head">Heading 2</h3>
+            <p class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor ex beatae magni suscipit
+                obcaecati in quasi assumenda pariatur! Qui, quaerat dolor?</p>
+        </div>
+        <div class="box">
+            <h3 class="head">Heading 3</h3>
+            <p class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor ex beatae magni suscipit
+                obcaecati in quasi assumenda pariatur! Qui, quaerat dolor?</p>
+        </div>
+    </div>
+</body>
+
+</html>

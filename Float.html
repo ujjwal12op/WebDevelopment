@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Float</title>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+
+        body {
+  font-family: 'Tangerine', serif;
+  font-size: 20px;
+  text-shadow: 4px 4px 4px #aaa;
+}
+
+    .container{
+        width: 900px;
+        border: 3px solid red;
+        background-color: rgb(250, 241, 229);
+        margin: 33px auto;
+    }
+
+    .item{
+        border: 3px solid red;
+        margin: 12px 4px;
+        padding: 12px 4px;
+        background-color: rgb(220, 236, 176);
+    }
+
+    #Vegetables{
+        float:right;
+        width: 48%;
+    }
+
+    #Fruits{
+        float:left;
+        width:48%;
+    }
+
+    #Electronics{
+        clear:both;
+        float:left;
+        width: 100%;
+    }
+    p{
+        /* text-align: right;
+        text-align: right; */
+        /* text-align: center; */
+        text-align: justify;
+    }
+    h3{
+        text-align: center;
+    
+    }
+    </style>
+    
+</head>
+<body>
+    <div class="container">
+        <h3>Welcome to my online store</h3>
+    <div id="vegetables" class="item">
+        <h3>Vegetables</h3>
+        <p id="para1" class="item">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo sunt cupiditate velit, deleniti placeat dolores necessitatibus ratione, ipsum veritatis consequuntur maxime, nesciunt quia inventore!</p>
+    </div>
+
+
+    <div id="fruits" class="item">
+        <h3 >Fruits</h3>
+        <p id="para2" class="item">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo sunt cupiditate velit, deleniti placeat dolores necessitatibus ratione, ipsum veritatis consequuntur maxime, nesciunt quia inventore!</p>
+    </div>
+
+
+    <div id="Electronics" class="item">
+        <h3>Electronics</h3>
+        <p id="para3" class="item">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo sunt cupiditate velit, deleniti placeat dolores necessitatibus ratione, ipsum veritatis consequuntur maxime, nesciunt quia inventore!</p>
+    </div>
+</div>
+</body>
+</html>
