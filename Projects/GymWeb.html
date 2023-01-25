@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ujjwals Restraunt</title>
+<style>
+    body{
+        margin: 0px;
+        padding: 0px;
+        color: yellow;
+        font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    }
+    img{
+        max-width: 100%;
+        max-height: 100%;
+    }
+
+    #logo{
+        width: 99px;
+    }
+
+    #logoname{
+            color: rgb(241, 245, 0);
+            font-size: large;
+            font-family:fantasy;
+    }
+    
+
+    .navbar li{
+        display: inline-block;
+        padding: 5px;
+        }
+
+    .left{
+        /* border: 2px solid rgb(43, 250, 2); */
+        position: absolute;
+        margin:2px;
+        padding:2px;
+        top:20px;
+        left: 45px;
+        text-align: center;
+        
+    }
+
+    .navbar li a{
+        color: rgb(250, 193, 4);
+        text-decoration: none;
+        margin: 9px;
+        font-size: 25px;
+    }
+    
+        .navbar li a:hover,.navbar li a.active{
+        text-decoration: underline;
+        color: white;
+    }
+
+
+    .mid{
+        position: absolute;
+        left: 319px;
+        display: block;
+        width: 45%;
+        margin:4px auto;
+        top: 20px;
+        /* border: 2px solid red; */
+    }
+
+    .right{
+        position: absolute;
+        right:34px;
+        top: 28px;
+        /* border: 2px solid rgb(0, 4, 255); */
+        display: inline-block;
+
+    }   
+    
+    .bttn{
+        margin:17px;
+        color: black;
+        background-color: rgb(34 231 242);
+        border: 2px solid yellow;
+        border-radius: 10px;
+        cursor: pointer;
+        font-size: large;
+}
+
+    .bttn:hover{
+        color: white;
+        background-color: rgb(253, 5, 5);
+    }
+
+    .container{
+        font-size: large;
+        
+        position: absolute;
+        top: 107px;
+        left: 600px;
+        bottom: 2px;
+        margin: 17px; 
+        /* border: 2px solid #10ff78; */
+        width: 584px;
+        padding: 30px;
+        border-radius: 30px;
+    }
+
+
+    #color{
+        text-align: center;
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        color: #e8ff00;
+    }
+
+    .form input{
+        font-family:Arial, Helvetica, sans-serif;
+        text-align: center;
+        margin:30px ;
+        display: block;
+        left:20px;
+        width: 500px;
+        padding:4px;
+        border-radius: 10px;
+    }
+
+    #btn1{
+        display: block;
+        width: 23%;
+        margin: auto;
+        border-radius: 10px;
+    
+    }
+    #btn1:hover{
+        background-color: yellow;
+    
+    }
+       
+    
+</style>
+</head>
+<body>
+    <img src="image1.jpg" alt="">
+    <header class="head">
+        
+        <div class="left">
+            <img src="logo1.png" id="logo" alt="">
+            <div id="logoname">Hot Grill</div>
+        </div>
+
+       <!-- Making left for the logo -->
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About Us</a> </li>
+                <li><a href="#">Contact me</a> </li>
+                <li><a href="#">Socials</a> </li>
+            </ul>
+        </div>
+        
+        
+         <!-- Navigation Bar -->
+        <div class="right">
+            <button class="bttn">Call us</button>
+            <button class="bttn">Email us</button>
+        </div>
+        <!-- Buttons -->
+    </header>
+    <div class="container">
+        <h1 id="color">Come to our Restraunt!</h1>
+        <form action="noaction.php">
+
+            <div class="form">
+                <input type="text" name="" placeholder="Enter your name">
+            </div>
+            <div class="form">
+                <input type="text" name="" placeholder="Enter your address">
+            </div>
+            <div class="form">
+                <input type="text" name="" placeholder="Enter your number">
+            </div>
+            <div class="form">
+                <input type="text" name="" placeholder="Enter your email">
+            </div>
+            <button id="btn1">Submit</button>
+        </form>
+    </div>
+</body>
+</html>
